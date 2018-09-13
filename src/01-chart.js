@@ -14,4 +14,7 @@ import * as d3 from 'd3'
   rect
     .attr('fill', colorScale('woman'))
     .attr('width', widthScale(165))
+    .attr('x', 0)
+    .attr('y', 15)
+    .attr('height', 20)
 })()
