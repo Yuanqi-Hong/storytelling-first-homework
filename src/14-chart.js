@@ -17,9 +17,11 @@ import * as d3 from 'd3'
   // Build your scales here
   const bandScale = d3.scaleBand()
     .rangeRound([0, width])
+
   const heightScale = d3.scaleLinear()
     .domain([0, 10])
     .range([0, height])
+    
   const fillScale = d3.scaleOrdinal()
     .range(['#FFB6C1', '#7FCDBB', '#2C7FB8'])
 
